@@ -1,0 +1,385 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #ccc;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+}
+
+li a {
+  margin: 0 20px;
+}
+
+#header {
+  background-color: #131921;
+  height: 60px;
+}
+
+li input {
+  position: inherit;
+  width: 615px;
+  padding: 11px;
+  margin: 13px 44px;
+  border: none;
+  border-radius: 5px;
+}
+
+span i {
+  position: absolute;
+  margin: 12px -91px;
+  padding: 9px 13px;
+  border-left: 1px solid #febd69;
+  border-radius: 4px;
+  background: #febd69;
+}
+
+#list {
+  position: absolute;
+  width: 52px;
+  padding: 10px 5px;
+  border-right: 2px solid lightgray;
+  background-color: lightgray;
+  margin: 12px 217px;
+  left: 85px;
+  border-radius: 4px;
+}
+
+.logo img {
+  height: 39px;
+  width: 90px;
+  top: 16px;
+  color: #fff;
+  left: 9px;
+  position: absolute;
+  padding: 5px;
+}
+
+.inline {
+  position: absolute;
+  left: 105px;
+  top: 21px;
+  font-size: 16px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.head1 {
+  font-size: 12px;
+  left: 142px;
+  top: 13px;
+  position: absolute;
+}
+
+#icon {
+  margin: 8px 22px;
+  position: relative;
+  font-size: 14px;
+  left: 64px;
+  top: -14px;
+  padding: 5px;
+}
+
+.head2 {
+  font-weight: bold;
+  position: relative;
+  right: -35px;
+  top: -14px;
+  font-size: 13px;
+}
+
+.head3 {
+  margin: 4px 10px;
+}
+
+li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/----------Right block starts here-----/
+
+.flag {
+  height: 17px;
+  width: 25px;
+  margin: 15px 954px;
+  position: absolute;
+  top: 16px;
+}
+
+#arrow {
+  position: absolute;
+  left: 986px;
+  font-size: 15px;
+  top: 33px;
+  color: #606060;
+}
+
+.righthead1 {
+  position: absolute;
+  margin: 15px;
+  left: 1020px;
+  top: -4px;
+  font-size: 12px;
+}
+
+.righthead2 {
+  position: absolute;
+  margin: 15px;
+  left: 1009px;
+  top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.right-head {
+  text-decoration: none;
+  color: #fff;
+}
+
+#arrow-2 {
+  color: #606060;
+  position: absolute;
+  border: none;
+  font-size: 15px;
+  background: none;
+  left: 1212px;
+  top: 7px;
+}
+
+.righthead3 {
+  position: absolute;
+  margin: 15px;
+  left: 1142px;
+  top: -4px;
+  font-size: 12px;
+}
+
+.righthead4 {
+  position: absolute;
+  margin: 15px;
+  left: 1143px;
+  top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.right-head2 {
+  text-decoration: none;
+  color: #fff;
+}
+
+#cart {
+  position: absolute;
+  left: 1245px;
+  top: 14px;
+  font-size: 31px;
+  color: #fff;
+}
+
+.in-cart {
+  position: absolute;
+  left: 1284px;
+  top: 22px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.zero {
+  color: #f08804;
+  position: absolute;
+  left: 1262px;
+  top: 16px;
+  font-size: 14px;
+}
+
+/----------Right block ends here-----/
+
+/-----------Header2 starts here ----------/
+
+#header2 {
+  background-color: #232f3e;
+}
+
+.menu2 {
+  display: flex;
+  list-style: none;
+  font-size: 15px;
+  padding: 15px;
+}
+
+.nav-bar .nav-link {
+  padding: 9px;
+  margin: 0;
+  font-size: 14px;
+}
+
+.logo2 {
+  position: absolute;
+  left: 994px;
+  width: 385px;
+  height: 39px;
+  top: 72px;
+}
+
+#bar {
+  position: absolute;
+  left: 96px;
+  top: 59px;
+  background: none;
+  font-size: 14px;
+  border: none;
+}
+
+.nav-link1 {
+  font-weight: bold;
+  font-size: 14px;
+}
+/-----------Header2 ends here ----------/
+
+/------slider starts here-----------------/
+
+#slider {
+  overflow: hidden;
+}
+
+#slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  animation: 20s slider infinite;
+}
+
+@keyframes slider {
+  0% {
+    left: 0;
+  }
+  20% {
+    left: 0;
+  }
+  25% {
+    left: -100%;
+  }
+  45% {
+    left: -100%;
+  }
+  50% {
+    left: -200%;
+  }
+  70% {
+    left: -200%;
+  }
+  75% {
+    left: -300%;
+  }
+  95% {
+    left: -300%;
+  }
+  100% {
+    left: -400%;
+  }
+}
+
+#slider figure img {
+  float: left;
+  background-repeat: no-repeat;
+  width: 20%;
+}
+
+/------slider ends here-----------------/
+
+/----------Hover Block starts here------------------/
+
+/----------Hover Block ends here------------------/
+
+/----------dropdown menu---------------/
+.dropdown {
+  position: absolute;
+  display: none;
+  list-style: none;
+  width: 248px;
+  top: 113px;
+  margin: -60px 155px;
+  left: 686px;
+  z-index: 1;
+}
+
+.triangle {
+  width: 0;
+  position: relative !important;
+  top: -139px;
+  left: 126px;
+  height: 0;
+  border-right: 11px solid transparent;
+  border-left: 11px solid transparent;
+  border-bottom: 11px solid #fff;
+  position: relative;
+  margin: auto;
+}
+
+.dropdown a {
+  color: #444;
+  display: flex;
+  font-size: 14px;
+  background-color: #fff;
+  width: 298%;
+  height: 101px;
+  border-radius: 7px;
+  margin: -61px;
+  padding: 7px 43px;
+  transition: all 0.5s ease;
+}
+
+.radio {
+  position: relative;
+  right: 385px;
+  top: -27px;
+}
+
+.dropdownmenu {
+  margin: 30px 83px;
+  width: 35px;
+}
+
+.icondrop {
+  position: relative;
+  top: -42px;
+  right: 54px;
+}
+
+#icon2 {
+  position: relative;
+  top: 21px;
+  right: -5px;
+  height: 10px;
+  width: 14px;
+}
+
+#text1 {
+  font-size: 11px;
+  position: absolute;
+  top: 182px;
+  left: 74px;
+  padding: 29px;
+}
+
+.text {
+  font-size: 12px;
+  position: absolute;
+  left: 126px;
+  color: #0066c0;
+  margin: -3px -43px;
+}
+
+.RightBlock:hover .dropdown {
+  display: flex;
+}
